@@ -1,0 +1,6 @@
+* text=auto
+*.cs diff=csharp
+*.ts text
+*.tsx text
+*.js text
+*.json text
