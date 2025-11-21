@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Roboto', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #262626;
+  background-color: #ffffff;
+  --color-primary: #d11f28;
+  --color-text: #262626;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --color-bg-soft: #f5f5f5;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f7f9fb;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.card-hover {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}

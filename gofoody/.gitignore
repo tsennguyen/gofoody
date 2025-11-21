@@ -1,0 +1,68 @@
+## Consolidated .gitignore for GOFOODY
+## Combines common .NET, Node, and OS-level ignores. Keep `.sql` ignored to avoid committing DB dumps.
+
+# Visual Studio & IDE
+.vs/
+*.user
+*.suo
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+artifacts/
+
+# Platform/arch
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# Node
+node_modules/
+dist/
+
+# Environment & secrets
+.env
+appsettings.json
+
+# SQL dumps - do NOT commit any .sql files
+*.sql
+
+# Logs and temp
+.log
+[Ll]og/
+[Ll]ogs/
+~$*
+*~
+
+# Test results and coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+CodeCoverage/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NUnit and other test artifacts
+*.VisualState.xml
+nunit-*.xml
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Others
+ScaffoldingReadMe.txt
+*.bin
