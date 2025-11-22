@@ -11,27 +11,6 @@ Food delivery management system backend (orders, products, delivery, revenue das
 
 Đây là mã nguồn hoàn chỉnh của dự án GOFOODY (backend .NET 8 Web API + frontend React + SQL Server). Tài liệu dưới đây mô tả cấu trúc thư mục, các tính năng đã hoàn thiện, và hướng dẫn nhanh để chạy dự án ở môi trường phát triển.
 
-## Cấu trúc thư mục
-
-gofoody_project/
-├── backend/
-│   ├── GoFoody.Api/
-│   ├── GoFoody.Infrastructure/
-│   ├── GoFoody.Domain/
-│   ├── GoFoody.sln
-│   ├── appsettings.json.example
-│   └── README_BACKEND.md
-├── frontend/
-│   ├── src/
-│   ├── package.json
-│   ├── vite.config.ts
-│   ├── .env.example
-│   └── README_FRONTEND.md
-├── README.md
-├── .gitignore
-├── .gitattributes
-└── docs/
-
 
 ## Những tính năng đã hoàn thành
 
