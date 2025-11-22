@@ -2,14 +2,14 @@
 # gofoody_project
 Food delivery management system backend (orders, products, delivery, revenue dashboard)
 =======
-# GOFOODY — Fullstack Demo Project
+# GOFOODY — Fullstack Project
 
-Đây là bản sao mã nguồn hoàn chỉnh của dự án GOFOODY (backend .NET 8 Web API + frontend React + SQL Server). Tài liệu dưới đây mô tả cấu trúc thư mục, các tính năng đã hoàn thiện, và hướng dẫn nhanh để chạy dự án ở môi trường phát triển.
+Đây là mã nguồn hoàn chỉnh của dự án GOFOODY (backend .NET 8 Web API + frontend React + SQL Server). Tài liệu dưới đây mô tả cấu trúc thư mục, các tính năng đã hoàn thiện, và hướng dẫn nhanh để chạy dự án ở môi trường phát triển.
 
 ## Cấu trúc thư mục
 # GOFOODY — Fullstack Demo Project
 
-Đây là bản sao mã nguồn hoàn chỉnh của dự án GOFOODY (backend .NET 8 Web API + frontend React + SQL Server). Tài liệu dưới đây mô tả cấu trúc thư mục, các tính năng đã hoàn thiện, và hướng dẫn nhanh để chạy dự án ở môi trường phát triển.
+Đây là mã nguồn hoàn chỉnh của dự án GOFOODY (backend .NET 8 Web API + frontend React + SQL Server). Tài liệu dưới đây mô tả cấu trúc thư mục, các tính năng đã hoàn thiện, và hướng dẫn nhanh để chạy dự án ở môi trường phát triển.
 
 ## Cấu trúc thư mục
 
@@ -105,19 +105,3 @@ Chỉnh API URL trong `.env` hoặc `.env.example`:
 VITE_API_BASE_URL=http://localhost:5000
 ```
 
-
-
-
-
-
-## Commit message đề xuất
-
-```
-feat: khởi tạo và hoàn thiện hệ thống GOFOODY fullstack
-- Thêm backend .NET 8 Web API + EF Core
-- Thêm frontend React + TS + Vite
-- Thêm README hướng dẫn chạy project
-- Bỏ qua file .sql và file cấu hình nhạy cảm
-```
-
----
