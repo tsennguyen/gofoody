@@ -105,21 +105,9 @@ Chỉnh API URL trong `.env` hoặc `.env.example`:
 VITE_API_BASE_URL=http://localhost:5000
 ```
 
-4) Seed dữ liệu
-
-Seed tự động chạy khi tạo DB bằng migrations. Để chạy seed thủ công:
-
-```
-dotnet run -- --seed
-```
-
-Seed tạo: vài user mẫu, sản phẩm, danh mục, tag, banner, bài viết demo.
 
 
-## Lưu ý khi commit / push
 
-- KHÔNG commit bất kỳ file `.sql` nào (ví dụ `database.sql`). `.gitignore` tại root đã bao gồm `*.sql`.
-- Không commit file cấu hình nhạy cảm: `appsettings.json`, `.env`.
 
 
 ## Commit message đề xuất
@@ -133,5 +121,3 @@ feat: khởi tạo và hoàn thiện hệ thống GOFOODY fullstack
 ```
 
 ---
-
-Nếu bạn muốn, tôi có thể hỗ trợ: tạo PR, cấu hình GitHub Actions CI (build/test), hoặc tạo Docker Compose để chạy dev stack (SQL Server + API + frontend).
