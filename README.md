@@ -33,7 +33,7 @@ Food delivery management system backend (orders, products, delivery, revenue das
 
 3) Database (SQL Server)
 - Schema chính: GoFoodyDB.
-- Bảng chính: Users, Roles, Categories, Products, ProductVariants, Orders, OrderItems, Tags, ProductTags, Vouchers, Banners, Posts, Notifications, Addresses, …
+- Bảng chính: Users, Roles, Categories, Products, ProductVariants, Orders, OrderItems, Tags, ProductTags
 - Migration & Seed tự động khi khởi tạo project lần đầu.
 
 
